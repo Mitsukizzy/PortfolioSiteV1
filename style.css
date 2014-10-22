@@ -1,0 +1,296 @@
+a{
+    text-decoration: none;   
+}
+h1{
+    font-size: 3.2em;  
+    margin: 0;
+}
+ul li img {
+    cursor: pointer;
+    margin-bottom:25px; 
+}
+img{
+    cursor: pointer;   
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.badges{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.sidebar-nav{
+    z-index: 3000 !important;   
+}
+.header{
+    font-weight: 300;   
+}
+.thumbnail{
+    width: auto;   
+    height: auto;
+    margin: 0 auto;   
+}
+.green{
+    color: #72962e !important;  
+}
+.grey{
+    color: #333333 !important;   
+}
+.light_grey{
+    color: #777777 !important;   
+}
+.white{
+    color: #FFFFFF !important;   
+}
+.orange{
+    color: #FFB330 !important;   
+}
+.dark_orange{
+    color: #F79D00 !important;  
+}
+.blue{
+    color: #3CAACF !important;   
+}
+.block{
+    display: block;   
+}
+.gallery{         
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+.jumbotron{
+    margin-bottom: 0;
+    background-color: #C4C4C4;
+}
+.content{
+    line-height: 22px; 
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.custom_menu_choice{
+    height: 80px;
+    vertical-align: center;
+}
+.custom_menu_choice a{
+    line-height: 55px !important;
+    margin: 0;
+    padding: 0;
+}
+.menu_selected_custom a{
+    color: #72962e !important;   
+}
+.profile_subtitle{
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 5px;
+    color: #777777;
+}
+.subtitle{
+    font-size: 1.6em;
+    font-weight: 300;   
+}
+.subsubtitle{
+    font-size: 1.2em;
+}
+.standard{
+    font-size: 1em;   
+}
+.bullet{
+    margin: 10px 0;   
+}
+.custom_grid{
+    padding: 5% 15%;
+}
+.grid_header{
+    font-weight: 300;   
+    font-size: 1.4em;
+}
+.grid_content, .grid_header{
+    margin-left: 25px;   
+    margin-right: 25px;   
+}
+.no_left_pad{
+    padding-left: 0px !important;   
+}
+.progress_custom{
+    margin: 10px 0 20px 0 !important;   
+}
+.progress:hover{
+  box-shadow: 0 0 5px #F79D00;
+}
+.gamezone{
+    margin: 20px 0;   
+}
+#arcis, #usc{
+    margin: 0 auto;   
+}
+.btn-success{
+    display: none;   
+    position: absolute;
+    left: 45%;
+    top: 28%;
+}
+.caption {
+    text-align:center;
+    padding: 0 !important;
+    color: #777777 !important;   
+    z-index:2;
+}
+.caption h3{
+    padding-top: 10px;   
+}
+.caption p{
+    padding: 10px 40px;   
+    text-align: left
+}
+.contact_info{
+    display: block;
+    padding: 30px 0;
+}
+.sbs{
+    display:inline-block;
+}
+.center{
+    text-align: center;
+}
+.profile, .experiences, 
+.abilities, .contact{
+    padding: 60px 20%;
+    margin-top:1px;
+}
+.profile{
+    background-color: #FFFFFF;  
+}
+.experiences{
+    background-color: #DCEFF7; 
+}
+.abilities{
+    background-color: #FCF8F2;   
+}
+.games{
+    background-color: #FFFFFF;   
+    padding: 60px 15%;
+    margin-top:1px;
+}
+.contact{
+    background-color: #343434;
+}
+.linkedin_icon{
+    height: 48px;
+    width 48px;
+    background-image: url(linkedin.jpg);    
+    display: block;
+}
+.facebook_icon{
+    background-image: url(facebook.jpg);
+    height: 48px;
+    width 48px;
+    display: block;
+}
+.email_icon{
+    background-image: url(email.jpg) 48px;
+    height: 48px;
+    width 48px;
+    display: block;
+}
+/*For gallery*/
+.controls{          
+    width:50px;
+    display:block;
+    font-size:11px;
+    padding-top:8px;
+    font-weight:bold;          
+}
+.next {
+    float:right;
+    text-align:right;
+}
+
+/*For navbar coloring*/
+.navbar-default {
+	background-color: #20252b;
+	border-color: #546f4a;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #c3c3c3;
+}
+.navbar-default .navbar-text {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #c3c3c3;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #c3c3c3;
+	background-color: #546f4a;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #c3c3c3;
+	background-color: #546f4a;
+}
+.navbar-default .navbar-toggle {
+	border-color: #546f4a;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #546f4a;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+	color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+	color: #c3c3c3;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #c3c3c3;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #c3c3c3;
+		background-color: #546f4a;
+	}
+}
+
+/*For navbar*/
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .sidebar-nav{
+    position: fixed;  
+    right: 100;  
+    top: 60;
+  }
+}
