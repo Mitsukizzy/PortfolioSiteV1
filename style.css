@@ -131,17 +131,17 @@ body{
     top: 28%;
 }
 .caption {
-    text-align:center;
-    padding: 0 !important;
     color: #777777 !important;   
     z-index:2;
 }
 .caption h3{
-    padding-top: 10px;   
+    padding-top: 10px; 
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 1.4em;
 }
 .caption p{
-    padding: 10px 40px;   
-    text-align: left
+    text-align: left;
 }
 .contact_info{
     display: block;
